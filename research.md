@@ -1,13 +1,11 @@
 ---
 title: Research Interests
 feature_text: |
-  Research Areas & Methodologies
+  ## Research Areas & Methodologies
 feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: "Detailed overview of my research interests and methodologies"
 aside: true
 ---
-
-# Research Interests
 
 My research focuses on the intersection of financial engineering, machine learning, and behavioral finance. I am particularly interested in developing data-driven solutions that help retail investors make more rational financial decisions.
 
