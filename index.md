@@ -7,6 +7,12 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Welcome to Jongho Park's academic homepage"
 ---
 
+## Jongho Park
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/assets/images/profile.jpg" alt="Jongho Park" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 ## About Me
 
 I am Jongho Park, a Ph.D course student in POSTECH(Pohang University of Science and Technology). 
