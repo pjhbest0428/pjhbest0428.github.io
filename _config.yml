@@ -92,7 +92,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Jongho Park" # Site name or title, also used in jekyll-seo-tag
+title: "David Darnes" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Jongho Park's personal blog. A place to share thoughts and ideas." # Site description and default description, also used in jekyll-seo-tag
 url: "https://pjhbest0428.github.io" # Site url, also used in jekyll-seo-tag
