@@ -1,144 +1,80 @@
 ---
-title: Research
+title: Research Interests
 feature_text: |
-  Research Projects & Publications
+  Research Areas & Methodologies
 feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "Overview of my research work"
+excerpt: "Detailed overview of my research interests and methodologies"
 aside: true
 ---
 
-# Heading 1
+# Research Interests
 
-## Heading 2
+My research focuses on the intersection of financial engineering, machine learning, and behavioral finance. I am particularly interested in developing data-driven solutions that help retail investors make more rational financial decisions.
 
-### Heading 3
+## Deep Learning for Stochastic Control Theory
 
-#### Heading 4
+### Overview
+I explore the application of deep learning techniques to solve complex stochastic control problems in finance, particularly in portfolio optimization and dynamic asset allocation.
 
-##### Heading 5
+### Key Research Areas
+- **Neural Network-based Policy Optimization**: Using deep reinforcement learning to solve high-dimensional portfolio optimization problems
+- **Stochastic Differential Equations**: Leveraging neural ODEs and physics-informed neural networks for financial modeling
+- **Dynamic Programming Solutions**: Implementing deep learning approaches to overcome the curse of dimensionality in traditional dynamic programming
 
-###### Heading 6
+### Applications
+- Pension fund asset allocation under regulatory constraints
+- Multi-period portfolio optimization with transaction costs
+- Real-time risk management in volatile markets
 
-<small>A small element</small>
+## Household Finance
 
-[A link](https://david.darn.es "A link")
+### Overview
+My research in household finance focuses on understanding and improving individual financial decision-making processes, particularly in the context of retirement planning and wealth management.
 
-Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
+### Key Research Areas
+- **Retirement Planning**: Optimal withdrawal strategies and lifecycle portfolio management
+- **Behavioral Biases**: Identifying and mitigating cognitive biases in financial decision-making
+- **Financial Literacy**: Impact of financial education on investment outcomes
+- **Robo-Advisory Systems**: Developing algorithmic solutions for personalized financial advice
 
-Duis aute irure dolor in [A link](https://david.darn.es "A link") reprehenderit in voluptate velit esse cillum **bold text** dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt _italicised text_ in culpa qui officia deserunt mollit anim id `some code` est laborum.
+### Current Projects
+- Analysis of herding behavior in cryptocurrency markets during COVID-19
+- Development of personalized fund recommendation systems for retail banking
+- Study of optimal asset allocation under changing regulatory environments
 
-* An item
-* An item
-* An item
-* An item
-* An item
+## Portfolio Management
 
-1. Item one
-2. Item two
-3. Item three
-4. Item four
-5. Item five
+### Overview
+I work on both theoretical and practical aspects of portfolio management, combining traditional optimization theory with modern machine learning techniques.
 
-> A simple blockquote
+### Key Research Areas
+- **Risk Management**: Advanced risk modeling using machine learning techniques
+- **Alternative Data Integration**: Incorporating news sentiment, social media data, and alternative datasets into portfolio construction
+- **Derivatives Pricing**: Development of robust pricing models for complex financial instruments
+- **ESG Integration**: Sustainable investing and ESG factor integration in portfolio optimization
 
-Some HTML...
+### Methodologies
+- **Machine Learning**: Random forests, neural networks, and ensemble methods for return prediction
+- **Natural Language Processing**: Sentiment analysis of financial news and earnings calls
+- **High-Frequency Data Analysis**: Processing and modeling ultra-high-frequency trading data
+- **Regime Switching Models**: Adaptive portfolio strategies under changing market conditions
 
-``` html
-<blockquote cite="http://www.imdb.com/title/tt0284978/quotes/qt1375101">
-  <p>You planning a vacation, Mr. Sullivan?</p>
-  <footer>
-    <a href="http://www.imdb.com/title/tt0284978/quotes/qt1375101">Sunways Security Guard</a>
-  </footer>
-</blockquote>
-```
+## Industry Collaborations
 
-...CSS...
+### Recent Projects
+- **Hanabank (2024)**: FX rate forecasting using news sentiment analysis
+- **KBbank (2023)**: Personalized fund recommendation system development  
+- **Metanet Fintech (2022)**: Derivatives pricing engine optimization
 
-``` css
-blockquote {
-  text-align: center;
-  font-weight: bold;
-}
-blockquote footer {
-  font-size: .8rem;
-}
-```
+### Research Philosophy
+I believe that bridging the gap between academic research and practical implementation is crucial. My work emphasizes:
+- **Practical Applicability**: Ensuring research outcomes can be implemented in real-world financial systems
+- **Data-Driven Approaches**: Leveraging big data and machine learning to enhance traditional financial models
+- **Retail Investor Focus**: Developing solutions that democratize sophisticated financial strategies for individual investors
 
-...and JavaScript
+## Future Research Directions
 
-``` js
-const blockquote = document.querySelector("blockquote")
-const bolden = (keyString, string) =>
-  string.replace(new RegExp(keyString, 'g'), '<strong>'+keyString+'</strong>')
-
-blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
-```
-
-`Single line of code`
-
-## HTML Includes
-
-### Contact form
-
-{% include site-form.html %}
-
-``` html
-{% raw %}{% include site-form.html %}{% endraw %}
-```
-
-### Demo map embed
-
-{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" title="Coffee shop map" %}
-
-``` html
-{% raw %}{% include map.html id="XXXXXX" title="Coffee shop map" %}{% endraw %}
-```
-
-### Button include
-
-{% include button.html text="A button" link="https://david.darn.es" %}
-
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}
-
-``` html
-{% raw %}{% include button.html text="A button" link="https://david.darn.es" %}
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}{% endraw %}
-```
-
-### Icon include
-
-{% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
-
-``` html
-{% raw %}{% include icon.html id="twitter" title="twitter" %}
-[{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes){% endraw %}
-```
-
-### Video include
-
-{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
-
-``` html
-{% raw %}{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}{% endraw %}
-```
-
-
-### Image includes
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
-
-``` html
-{% raw %}{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}{% endraw %}
-```
+- Integration of quantum computing techniques in portfolio optimization
+- Development of explainable AI models for financial decision-making
+- Cross-asset momentum and mean reversion strategies using alternative data
+- Sustainable finance and climate risk modeling in portfolio management
