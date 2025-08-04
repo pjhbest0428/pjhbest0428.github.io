@@ -73,7 +73,7 @@ collections:
 defaults:
   -
     scope:
-      path: ""
+      path: "" 
     values:
       image: "/assets/default-social-image.png" # Default image for sharing
   -
@@ -127,7 +127,7 @@ navigation_header:
 - title: Publications
   url: /publications/
 - title: CV
-  url: https://mathpole.notion.site/CV-Curriculum-Vitae-981781c2424b4ce7b23bdee10507efff?source=copy_link
+  url: https://mathpole.notion.site/CV-Curriculum-Vitae-981781c2424b4ce7b23bdee10507efff
 - title: Blog
   url: /blog/
 - title: Categories
