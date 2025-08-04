@@ -37,6 +37,6 @@ I am involved in various professional activities, including:
 
 ## Contact
 
-You can contact me at [jongho.park@email.com](mailto:jongho.park@email.com).
+You can contact me at [pjhbest0428@postech.ac.kr](mailto:pjhbest0428@postech.ac.kr).
 
 Thank you for visiting my homepage.
