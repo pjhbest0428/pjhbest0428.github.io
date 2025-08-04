@@ -1,13 +1,11 @@
 ---
-title: About Jongho Park
+title: Jongho Park
 feature_text: |
   ## Jongho Park
   Researcher & Academic
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Welcome to Jongho Park's academic homepage"
 ---
-
-# Welcome to My Academic Homepage
 
 ## About Me
 
