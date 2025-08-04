@@ -92,7 +92,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "David Darnes" # Site name or title, also used in jekyll-seo-tag
+title: "Jongho Park" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Jongho Park's personal blog. A place to share thoughts and ideas." # Site description and default description, also used in jekyll-seo-tag
 url: "https://pjhbest0428.github.io" # Site url, also used in jekyll-seo-tag
@@ -138,7 +138,7 @@ navigation_header:
 #   url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-- title: Created by David Darnes
+- title: Theme by David Darnes
   url: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
