@@ -136,8 +136,6 @@ navigation_header:
 navigation_footer:
 - title: Created by David Darnes
   url: https://darn.es
-- title: Powered by Jongho Park
-  url: https://pjhbest0428.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   # Twitter: https://twitter.com/pjhbest0428
