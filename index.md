@@ -9,31 +9,35 @@ excerpt: "Welcome to Jongho Park's academic homepage"
 
 ## About Me
 
-I am Jongho Park, a researcher and academic. This is my personal homepage where you can find information about my research, publications, and professional activities.
+I am Jongho Park, a Ph.D course student in POSTECH(Pohang University of Science and Technology). 
+My Philosophy is helping retail investors making rational and well-suited financial decisions (e.g. Retirement, Portfolio Management, Bequest etc.). For my philosophy, I think introducing data-driven approach to traditional optimization theory is necessary and efficient approach for this field.
 
 ## Research Interests
 
 My research interests include:
 
-- Artificial Intelligence
-- Machine Learning
-- Data Science
-- Human-Computer Interaction
+- Deep Learning for Stochastic Control theory
+- Household Finance
+- Portfolio Management
 
 ## Publications
 
 Here are a few selected publications:
 
-- Park, J., & Kim, H. (2023). A Study on the Impact of AI on Society. *Journal of AI Research*, 45(2), 123-145.
-- Park, J. (2022). Machine Learning Techniques for Data Analysis. *Data Science Journal*, 21(4), 67-89.
+- **["Optimal Asset Allocation of Pension Funds with a Portfolio Constraint Change(투자비중 제약조건 변화에 따른 연기금의 자산배분)"](https://www.e-kjfs.org/upload/pdf/KJFS-2024-10-53-5-489.pdf)** (With Bong-Gyu Jang), Korean Journal of Financial Studies, Vol 53, Issue 5, 2024, 489-524.
 
-## Professional Activities
+## Working Papers
+- **["Herding in Cryptocurrency Market and Covid-19: Spillover Effects and Fundamental Information"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4759813)** (With Daeyoung Jeon, Changeun Kim, Bong-Gyu Jang), 2024, SSRN Preprint.
 
-I am involved in various professional activities, including:
+## Research Projects
 
-- Serving as a reviewer for several academic journals.
-- Participating in international conferences as a speaker and organizer.
-- Collaborating with industry partners on AI and data science projects.
+I've involved in various industry-academic joint projects.
+
+My work experiences are not confined in traditional financial engineering, but connecting machine learning based approach to industrial fields.
+
+- Development of a Forecasting Model for Short-Term FX Rate Rises and Falls Considering News Data with Hanabank (2024)
+- Development of Fund Recommendation Solutions for Personal Financial Management with KBbank (2023)
+- Development of the RiskCraft Derivatives Pricing Engines with Metanet Fintech (2022)
 
 ## Contact
 
