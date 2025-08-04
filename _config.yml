@@ -134,7 +134,9 @@ navigation_header:
 #   url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-- title: Created by Jongho Park
+- title: Created by David Darnes
+  url: https://darn.es
+- title: Powered by Jongho Park
   url: https://pjhbest0428.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
