@@ -7,6 +7,28 @@
 
             <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
             {% include post-meta.html %}
+            
+            <!-- Categories and Tags -->
+            <div class="post-categories-tags">
+              {% if page.categories %}
+                <div class="post-categories">
+                  <strong>Categories:</strong>
+                  {% for category in page.categories %}
+                    <a href="/blog/category/{{ category | downcase | replace: ' ', '-' }}/" class="category-link">{{ category }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              
+              {% if page.tags %}
+                <div class="post-tags">
+                  <strong>Tags:</strong>
+                  {% for tag in page.tags %}
+                    <a href="/blog/tag/{{ tag | downcase | replace: ' ', '-' }}/" class="tag-link">#{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+            
             {{ page.excerpt | markdownify | truncatewords: 60 }}
 
           </article>
@@ -24,6 +46,28 @@
 
             <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
             {% include post-meta.html %}
+            
+            <!-- Categories and Tags -->
+            <div class="post-categories-tags">
+              {% if page.categories %}
+                <div class="post-categories">
+                  <strong>Categories:</strong>
+                  {% for category in page.categories %}
+                    <a href="/blog/category/{{ category | downcase | replace: ' ', '-' }}/" class="category-link">{{ category }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              
+              {% if page.tags %}
+                <div class="post-tags">
+                  <strong>Tags:</strong>
+                  {% for tag in page.tags %}
+                    <a href="/blog/tag/{{ tag | downcase | replace: ' ', '-' }}/" class="tag-link">#{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+            
             {{ page.excerpt | markdownify | truncatewords: 60 }}
 
           </article>
@@ -32,3 +76,45 @@
     </ul>
   </section>
 {% endif %}
+
+<style>
+.post-categories-tags {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 0.9rem;
+}
+
+.post-categories, .post-tags {
+  margin-bottom: 0.5rem;
+}
+
+.post-categories strong, .post-tags strong {
+  color: #666;
+  margin-right: 0.5rem;
+}
+
+.category-link, .tag-link {
+  color: #667eea;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: #f8f9fa;
+  transition: all 0.2s ease;
+}
+
+.category-link:hover, .tag-link:hover {
+  background: #667eea;
+  color: white;
+  text-decoration: none;
+}
+
+.tag-link {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.tag-link:hover {
+  background: #1976d2;
+  color: white;
+}
+</style>

@@ -7,18 +7,28 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Welcome to Jongho Park's academic homepage"
 ---
 
-## About Me
-
-I am Jongho Park, a Ph.D course student in POSTECH(Pohang University of Science and Technology). 
-My Philosophy is helping retail investors making rational and well-suited financial decisions (e.g. Retirement, Portfolio Management, Bequest etc.). For my philosophy, I think introducing data-driven approach to traditional optimization theory is necessary and efficient approach for this field.
+<div style="display: flex; align-items: center; margin-bottom: 2rem;">
+  <div style="margin-right: 2rem;">
+    <img src="/assets/images/profile.jpg" alt="Jongho Park" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  </div>
+  <div>
+    <h2>About Me</h2>
+    <p style="font-size: 1.1rem; line-height: 1.6;">
+      I am Jongho Park, a Ph.D course student in POSTECH(Pohang University of Science and Technology). 
+      My Philosophy is helping retail investors making rational and well-suited financial decisions (e.g. Retirement, Portfolio Management, Bequest etc.). For my philosophy, I think introducing data-driven approach to traditional optimization theory is necessary and efficient approach for this field.
+    </p>
+  </div>
+</div>
 
 ## Research Interests
 
 My research interests include:
 
-- Deep Learning for Stochastic Control theory
-- Household Finance
-- Portfolio Management
+- **Deep Learning for Stochastic Control theory** - [Learn More →](/research/#deep-learning-for-stochastic-control-theory)
+- **Household Finance** - [Learn More →](/research/#household-finance)
+- **Portfolio Management** - [Learn More →](/research/#portfolio-management)
+
+[**View Full Research Details →**](/research/)
 
 ## Publications
 
@@ -28,6 +38,8 @@ Here are a few selected publications:
 
 ## Working Papers
 - **["Herding in Cryptocurrency Market and Covid-19: Spillover Effects and Fundamental Information"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4759813)** (With Daeyoung Jeon, Changeun Kim, Bong-Gyu Jang), 2024, SSRN Preprint.
+
+[**View All Publications →**](/publications/)
 
 ## Research Projects
 

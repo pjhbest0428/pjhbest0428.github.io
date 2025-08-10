@@ -4,6 +4,132 @@ layout: default
 
 {% include site-header.html %}
 
+<!-- Floating Category Navigation -->
+<div class="floating-categories">
+  <div class="floating-categories-toggle">
+    <span>📚</span>
+    <span class="toggle-text">Categories</span>
+  </div>
+  <div class="floating-categories-menu">
+    <h4>Research Topics</h4>
+    <ul>
+      <li><a href="/blog/category/deep-learning/">🧠 Deep Learning in Finance</a></li>
+      <li><a href="/blog/category/household-finance/">🏠 Household Finance</a></li>
+      <li><a href="/blog/category/portfolio-management/">📊 Portfolio Management</a></li>
+      <li><a href="/blog/category/cryptocurrency/">₿ Cryptocurrency & Digital Assets</a></li>
+      <li><a href="/blog/category/industry-collaborations/">🏢 Industry Collaborations</a></li>
+      <li><a href="/blog/category/academic-research/">🎓 Academic Research</a></li>
+    </ul>
+    <h4>Quick Links</h4>
+    <ul>
+      <li><a href="/categories/">📂 All Categories</a></li>
+      <li><a href="/research/">🔬 Research Details</a></li>
+      <li><a href="/publications/">📄 Publications</a></li>
+    </ul>
+  </div>
+</div>
+
+<style>
+.floating-categories {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  max-width: 280px;
+}
+
+.floating-categories:hover {
+  transform: translateY(-50%) scale(1.02);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+}
+
+.floating-categories-toggle {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 12px 12px 0 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.floating-categories-toggle span:first-child {
+  font-size: 18px;
+}
+
+.floating-categories-menu {
+  padding: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.floating-categories:hover .floating-categories-menu {
+  max-height: 500px;
+}
+
+.floating-categories-menu h4 {
+  margin: 0 0 12px 0;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 5px;
+}
+
+.floating-categories-menu h4:not(:first-child) {
+  margin-top: 20px;
+}
+
+.floating-categories-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.floating-categories-menu li {
+  margin: 8px 0;
+}
+
+.floating-categories-menu a {
+  color: #555;
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.floating-categories-menu a:hover {
+  background: #f8f9fa;
+  color: #667eea;
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .floating-categories {
+    left: 10px;
+    right: 10px;
+    max-width: none;
+  }
+  
+  .floating-categories-toggle {
+    justify-content: center;
+  }
+}
+</style>
+
 <main class="main  container">
 
   <div class="content">
