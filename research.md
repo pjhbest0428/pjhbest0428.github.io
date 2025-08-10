@@ -7,9 +7,130 @@ excerpt: "Detailed overview of my research interests and methodologies"
 aside: true
 ---
 
+<!-- Research Navigation Box -->
+<div class="research-navigation-box">
+  <h3>🔬 Quick Navigation</h3>
+  <div class="research-sections">
+    <div class="research-section-item">
+      <a href="#deep-learning" class="research-link">
+        <span class="icon">🧠</span>
+        <span class="title">Deep Learning for Stochastic Control Theory</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="research-section-item">
+      <a href="#household-finance" class="research-link">
+        <span class="icon">🏠</span>
+        <span class="title">Household Finance</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="research-section-item">
+      <a href="#portfolio-management" class="research-link">
+        <span class="icon">📊</span>
+        <span class="title">Portfolio Management</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="research-section-item">
+      <a href="#industry-collaborations" class="research-link">
+        <span class="icon">🏢</span>
+        <span class="title">Industry Collaborations</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="research-section-item">
+      <a href="#future-research" class="research-link">
+        <span class="icon">🚀</span>
+        <span class="title">Future Research Directions</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+.research-navigation-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 2rem 0 3rem 0;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.research-navigation-box h3 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.research-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.research-section-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.research-section-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.research-link {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  gap: 0.8rem;
+}
+
+.research-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.title {
+  flex: 1;
+  font-weight: 500;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  opacity: 0.7;
+  transition: transform 0.3s ease;
+}
+
+.research-section-item:hover .arrow {
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .research-sections {
+    grid-template-columns: 1fr;
+  }
+  
+  .research-navigation-box {
+    padding: 1.5rem;
+  }
+}
+</style>
+
 My research focuses on the intersection of financial engineering, machine learning, and behavioral finance. I am particularly interested in developing data-driven solutions that help retail investors make more rational financial decisions.
 
-## Deep Learning for Stochastic Control Theory
+## <span id="deep-learning">Deep Learning for Stochastic Control Theory</span>
 
 ### Overview
 I explore the application of deep learning techniques to solve complex stochastic control problems in finance, particularly in portfolio optimization and dynamic asset allocation.
@@ -24,7 +145,7 @@ I explore the application of deep learning techniques to solve complex stochasti
 - Multi-period portfolio optimization with transaction costs
 - Real-time risk management in volatile markets
 
-## Household Finance
+## <span id="household-finance">Household Finance</span>
 
 ### Overview
 My research in household finance focuses on understanding and improving individual financial decision-making processes, particularly in the context of retirement planning and wealth management.
@@ -40,7 +161,7 @@ My research in household finance focuses on understanding and improving individu
 - Development of personalized fund recommendation systems for retail banking
 - Study of optimal asset allocation under changing regulatory environments
 
-## Portfolio Management
+## <span id="portfolio-management">Portfolio Management</span>
 
 ### Overview
 I work on both theoretical and practical aspects of portfolio management, combining traditional optimization theory with modern machine learning techniques.
@@ -57,7 +178,7 @@ I work on both theoretical and practical aspects of portfolio management, combin
 - **High-Frequency Data Analysis**: Processing and modeling ultra-high-frequency trading data
 - **Regime Switching Models**: Adaptive portfolio strategies under changing market conditions
 
-## Industry Collaborations
+## <span id="industry-collaborations">Industry Collaborations</span>
 
 ### Recent Projects
 - **Hanabank (2024)**: FX rate forecasting using news sentiment analysis
@@ -70,7 +191,7 @@ I believe that bridging the gap between academic research and practical implemen
 - **Data-Driven Approaches**: Leveraging big data and machine learning to enhance traditional financial models
 - **Retail Investor Focus**: Developing solutions that democratize sophisticated financial strategies for individual investors
 
-## Future Research Directions
+## <span id="future-research">Future Research Directions</span>
 
 - Integration of quantum computing techniques in portfolio optimization
 - Development of explainable AI models for financial decision-making
