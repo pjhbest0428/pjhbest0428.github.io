@@ -42,7 +42,8 @@ layout: default
   border: 1px solid rgba(255,255,255,0.2);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
-  max-width: 280px;
+  max-width: 320px;
+  min-width: 300px;
 }
 
 .floating-categories:hover {
@@ -75,7 +76,7 @@ layout: default
 }
 
 .floating-categories:hover .floating-categories-menu {
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .floating-categories-menu h4 {
@@ -85,6 +86,7 @@ layout: default
   font-weight: 600;
   border-bottom: 2px solid #667eea;
   padding-bottom: 5px;
+  white-space: nowrap;
 }
 
 .floating-categories-menu h4:not(:first-child) {
@@ -109,6 +111,9 @@ layout: default
   padding: 8px 12px;
   border-radius: 6px;
   transition: all 0.2s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.4;
 }
 
 .floating-categories-menu a:hover {
@@ -122,6 +127,7 @@ layout: default
     left: 10px;
     right: 10px;
     max-width: none;
+    min-width: auto;
   }
   
   .floating-categories-toggle {
@@ -142,14 +148,23 @@ layout: default
         {{ collectiondata.description | markdownify }}
 
       {% else %}
-        <h1>{{ page.title }}</h1>
-        {{ content }}
+        <h1>Research Blog</h1>
+        <p>Welcome to my research blog. Currently, I'm focusing on developing content for the following research areas:</p>
+        
+        <h2>Current Research Focus</h2>
+        <ul>
+          <li><strong>Deep Learning in Finance:</strong> Neural networks for portfolio optimization and stochastic control theory</li>
+          <li><strong>Household Finance:</strong> Retirement planning, behavioral biases, and financial decision-making</li>
+          <li><strong>Portfolio Management:</strong> Risk modeling, alternative data integration, and ESG investing</li>
+          <li><strong>Cryptocurrency Markets:</strong> Behavioral finance and market efficiency research</li>
+          <li><strong>Industry Collaborations:</strong> Real-world applications of academic research in banking and fintech</li>
+        </ul>
+        
+        <p>Please check back soon for detailed research posts and insights. In the meantime, you can explore my research interests and publications through the navigation menu.</p>
         
       {% endif %}
 
     </article>
-
-    {% include post-list.html %}
 
   </div>
 

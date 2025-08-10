@@ -1,120 +1,74 @@
 {% if paginator.posts %}
   <section class="section  typeset">
-    <ul class="list  list--posts">
-      {% for page in paginator.posts %}
-        <li class="item  item--post">
-          <article class="article  article--post">
-
-            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
-            {% include post-meta.html %}
-            
-            <!-- Categories and Tags -->
-            <div class="post-categories-tags">
-              {% if page.categories %}
-                <div class="post-categories">
-                  <strong>Categories:</strong>
-                  {% for category in page.categories %}
-                    <a href="/blog/category/{{ category | downcase | replace: ' ', '-' }}/" class="category-link">{{ category }}</a>
-                  {% endfor %}
-                </div>
-              {% endif %}
-              
-              {% if page.tags %}
-                <div class="post-tags">
-                  <strong>Tags:</strong>
-                  {% for tag in page.tags %}
-                    <a href="/blog/tag/{{ tag | downcase | replace: ' ', '-' }}/" class="tag-link">#{{ tag }}</a>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-            
-            {{ page.excerpt | markdownify | truncatewords: 60 }}
-
-          </article>
-        </li>
-      {% endfor %}
-    </ul>
-    {% include post-pagination.html %}
+    <div class="no-posts-message">
+      <h3>Coming Soon</h3>
+      <p>Research posts are currently being prepared. Please check back soon for detailed insights on:</p>
+      <ul>
+        <li>Deep Learning in Finance</li>
+        <li>Household Finance Research</li>
+        <li>Portfolio Management</li>
+        <li>Cryptocurrency Markets</li>
+        <li>Industry Collaborations</li>
+      </ul>
+    </div>
   </section>
 {% else %}
   <section class="section  typeset">
-    <ul class="list  list--posts">
-      {% for page in site.posts %}
-        <li class="item  item--post">
-          <article class="article  article--post">
-
-            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
-            {% include post-meta.html %}
-            
-            <!-- Categories and Tags -->
-            <div class="post-categories-tags">
-              {% if page.categories %}
-                <div class="post-categories">
-                  <strong>Categories:</strong>
-                  {% for category in page.categories %}
-                    <a href="/blog/category/{{ category | downcase | replace: ' ', '-' }}/" class="category-link">{{ category }}</a>
-                  {% endfor %}
-                </div>
-              {% endif %}
-              
-              {% if page.tags %}
-                <div class="post-tags">
-                  <strong>Tags:</strong>
-                  {% for tag in page.tags %}
-                    <a href="/blog/tag/{{ tag | downcase | replace: ' ', '-' }}/" class="tag-link">#{{ tag }}</a>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-            
-            {{ page.excerpt | markdownify | truncatewords: 60 }}
-
-          </article>
-        </li>
-      {% endfor %}
-    </ul>
+    <div class="no-posts-message">
+      <h3>Coming Soon</h3>
+      <p>Research posts are currently being prepared. Please check back soon for detailed insights on:</p>
+      <ul>
+        <li>Deep Learning in Finance</li>
+        <li>Household Finance Research</li>
+        <li>Portfolio Management</li>
+        <li>Cryptocurrency Markets</li>
+        <li>Industry Collaborations</li>
+      </ul>
+    </div>
   </section>
 {% endif %}
 
 <style>
-.post-categories-tags {
-  margin: 0.5rem 0 1rem 0;
-  font-size: 0.9rem;
-}
-
-.post-categories, .post-tags {
-  margin-bottom: 0.5rem;
-}
-
-.post-categories strong, .post-tags strong {
-  color: #666;
-  margin-right: 0.5rem;
-}
-
-.category-link, .tag-link {
-  color: #667eea;
-  text-decoration: none;
-  margin-right: 0.5rem;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+.no-posts-message {
+  text-align: center;
+  padding: 3rem 1rem;
   background: #f8f9fa;
-  transition: all 0.2s ease;
+  border-radius: 12px;
+  border: 2px dashed #dee2e6;
 }
 
-.category-link:hover, .tag-link:hover {
-  background: #667eea;
-  color: white;
-  text-decoration: none;
+.no-posts-message h3 {
+  color: #495057;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
-.tag-link {
-  background: #e3f2fd;
-  color: #1976d2;
+.no-posts-message p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
 }
 
-.tag-link:hover {
-  background: #1976d2;
-  color: white;
+.no-posts-message ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.no-posts-message li {
+  color: #495057;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+  font-weight: 500;
+}
+
+.no-posts-message li:before {
+  content: "🔬 ";
+  margin-right: 0.5rem;
 }
 </style>

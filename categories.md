@@ -12,29 +12,32 @@ aside: true
 ### [Deep Learning in Finance](/blog/category/deep-learning/)
 Posts about neural networks, machine learning applications in financial modeling, and stochastic control theory.
 
-**Recent Posts:**
-- [Optimal Asset Allocation of Pension Funds: Adapting to Portfolio Constraint Changes](/blog/2024/12/19/pension-fund-asset-allocation/)
+**Status:** Content in preparation
 
 ### [Household Finance](/blog/category/household-finance/)
 Research on individual financial decision-making, retirement planning, and behavioral finance.
 
-**Recent Posts:**
-- [Welcome to My Research Blog](/blog/2024/12/19/welcome-to-my-blog/)
+**Status:** Content in preparation
 
 ### [Portfolio Management](/blog/category/portfolio-management/)
 Posts about portfolio optimization, risk management, and investment strategies.
 
+**Status:** Content in preparation
+
 ### [Cryptocurrency & Digital Assets](/blog/category/cryptocurrency/)
 Research on cryptocurrency markets, blockchain technology, and digital asset behavior.
 
-**Recent Posts:**
-- [Herding in Cryptocurrency Markets During COVID-19: Spillover Effects and Fundamental Information](/blog/2024/12/19/cryptocurrency-herding-covid19/)
+**Status:** Content in preparation
 
 ### [Industry Collaborations](/blog/category/industry-collaborations/)
 Posts about real-world applications of academic research in banking and fintech.
 
+**Status:** Content in preparation
+
 ### [Academic Research](/blog/category/academic-research/)
 General academic discussions, methodology insights, and research updates.
+
+**Status:** Content in preparation
 
 ---
 

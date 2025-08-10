@@ -147,7 +147,7 @@ body {
 
 .aside {
   @include breakpoint(break-1) {
-    max-width: 34%;
+    max-width: 40%;
     margin-left: 4%;
     @include flex(1, 0, auto);
     opacity: 0.5;
@@ -453,5 +453,37 @@ pre code {
   pre {
     white-space: pre;
     overflow-x: scroll;
+  }
+}
+
+// Category section improvements
+.section--category-index {
+  .nav--categories {
+    .list--categories {
+      .item--category {
+        margin-bottom: 0.5rem;
+        
+        a {
+          display: block;
+          padding: 0.5rem 0.75rem;
+          background-color: #f8f9fa;
+          border: 1px solid #e9ecef;
+          border-radius: 6px;
+          color: #495057;
+          text-decoration: none;
+          transition: all 0.2s ease;
+          font-size: 0.9rem;
+          line-height: 1.4;
+          word-wrap: break-word;
+          overflow-wrap: break-word;
+          
+          &:hover {
+            background-color: #e9ecef;
+            border-color: #adb5bd;
+            color: #212529;
+          }
+        }
+      }
+    }
   }
 }
