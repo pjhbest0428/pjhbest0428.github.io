@@ -1,4 +1,4 @@
----
+햐---
 layout: default
 ---
 
@@ -32,7 +32,7 @@ layout: default
 <style>
 .floating-categories {
   position: fixed;
-  left: 20px;
+  left: 30px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 1000;
@@ -54,7 +54,7 @@ layout: default
 .floating-categories-toggle {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 15px 20px;
+  padding: 12px 18px;
   border-radius: 12px 12px 0 0;
   cursor: pointer;
   display: flex;
@@ -69,18 +69,18 @@ layout: default
 }
 
 .floating-categories-menu {
-  padding: 20px;
+  padding: 16px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
 }
 
 .floating-categories:hover .floating-categories-menu {
-  max-height: 600px;
+  max-height: 450px;
 }
 
 .floating-categories-menu h4 {
-  margin: 0 0 12px 0;
+  margin: 0 0 10px 0;
   color: #333;
   font-size: 14px;
   font-weight: 600;
@@ -90,7 +90,7 @@ layout: default
 }
 
 .floating-categories-menu h4:not(:first-child) {
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .floating-categories-menu ul {
@@ -100,7 +100,7 @@ layout: default
 }
 
 .floating-categories-menu li {
-  margin: 8px 0;
+  margin: 6px 0;
 }
 
 .floating-categories-menu a {
@@ -108,7 +108,7 @@ layout: default
   text-decoration: none;
   font-size: 13px;
   display: block;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: 6px;
   transition: all 0.2s ease;
   word-wrap: break-word;
@@ -124,8 +124,8 @@ layout: default
 
 @media (max-width: 768px) {
   .floating-categories {
-    left: 10px;
-    right: 10px;
+    left: 15px;
+    right: 15px;
     max-width: none;
     min-width: auto;
   }
