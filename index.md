@@ -7,18 +7,94 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Welcome to Jongho Park's academic homepage"
 ---
 
-<div style="display: flex; align-items: center; margin-bottom: 2rem;">
-  <div style="margin-right: 2rem;">
-    <img src="/assets/images/profile.jpg" alt="Jongho Park" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+<!-- Profile Section -->
+<div class="profile-section">
+  <div class="profile-image-container">
+    <img src="/assets/images/profile.jpg" alt="Jongho Park" class="profile-image" />
   </div>
-  <div>
+  <div class="profile-content">
     <h2>About Me</h2>
-    <p style="font-size: 1.1rem; line-height: 1.6;">
+    <p class="profile-description">
       I am Jongho Park, a Ph.D course student in POSTECH(Pohang University of Science and Technology). 
       My Philosophy is helping retail investors making rational and well-suited financial decisions (e.g. Retirement, Portfolio Management, Bequest etc.). For my philosophy, I think introducing data-driven approach to traditional optimization theory is necessary and efficient approach for this field.
     </p>
   </div>
 </div>
+
+<style>
+.profile-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0 3rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.profile-image-container {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  border: 4px solid white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+}
+
+.profile-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-content h2 {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.profile-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #34495e;
+  margin: 0;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .profile-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .profile-description {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+</style>
 
 ## Research Interests
 
