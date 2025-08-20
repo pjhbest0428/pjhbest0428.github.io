@@ -124,10 +124,10 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Research Interest
-  url: /research/    # elements.md를 연구 페이지로 활용
-- title: Publications
-  url: /publications/
+# - title: Research Interest
+#   url: /research/    # elements.md를 연구 페이지로 활용
+# - title: Publications
+#   url: /publications/
 - title: CV
   url: https://mathpole.notion.site/CV-Curriculum-Vitae-981781c2424b4ce7b23bdee10507efff
 - title: Blog
@@ -136,8 +136,6 @@ navigation_header:
   url: /categories/
 - title: Search
   url: /search/
-# - title: Fork Alembic
-#   url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
 - title: Theme by David Darnes

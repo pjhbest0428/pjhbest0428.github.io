@@ -100,11 +100,9 @@ excerpt: "Welcome to Jongho Park's academic homepage"
 
 My research interests include:
 
-- **Deep Learning for Stochastic Control theory** - [Learn More →](/research/#deep-learning-for-stochastic-control-theory)
-- **Household Finance** - [Learn More →](/research/#household-finance)
-- **Portfolio Management** - [Learn More →](/research/#portfolio-management)
-
-[**View Full Research Details →**](/research/)
+- **Deep Learning for Stochastic Control theory**
+- **Household Finance** 
+- **Portfolio Management**
 
 ## Publications
 
@@ -114,8 +112,6 @@ Here are a few selected publications:
 
 ## Working Papers
 - **["Herding in Cryptocurrency Market and Covid-19: Spillover Effects and Fundamental Information"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4759813)** (With Daeyoung Jeon, Changeun Kim, Bong-Gyu Jang), 2024, SSRN Preprint.
-
-[**View All Publications →**](/publications/)
 
 ## Research Projects
 
